@@ -11,8 +11,7 @@
 
 function addArrayProperty(objeto, nuevoPara, array) {
   objeto[nuevoPara] = array;
-  console.log(objeto);
-  document.write(`${array} <br><br>`);
+  document.write(objeto[nuevoPara] + "<br>" + "<br>");
 }
 
 let objeto = {
