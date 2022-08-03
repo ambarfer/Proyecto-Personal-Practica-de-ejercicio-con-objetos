@@ -17,12 +17,12 @@
 function removeStringValuesLongerThan(numero, objeto) {
   for (let [key, value] of Object.entries(objeto)) {
     let resultado = value.toString();
-    console.log(resultado);
-    if (resultado.length < numero) {
-      console.log(resultado.length);
-      document.write(`${resultado} <br>`);
+    if (resultado.length > numero) {
+      delete objeto[key];
     }
   }
+
+  document.write(JSON.stringify(objeto));
   document.write("<br>");
 }
 
