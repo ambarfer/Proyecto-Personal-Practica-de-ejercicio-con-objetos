@@ -26,11 +26,7 @@
 
 function listAllValues(cosa) {
   let valor = Object.values(cosa);
-  let array = [];
-  for (let i = 0; i < valor.length; i++) {
-    array.push(valor[i]);
-  }
-  return array;
+  return valor;
 }
 
 let objeto = {
