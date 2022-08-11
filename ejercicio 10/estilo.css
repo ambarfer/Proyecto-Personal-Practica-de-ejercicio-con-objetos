@@ -79,13 +79,27 @@ padding: 17px;
 }
 
 .boton_eliminar{
+    background-color: rgb(177, 36, 36);
+    border: 1px solid  rgb(177, 36, 36);
+    color: azure;
+    border-radius: 2px;
+    float: right;
+    margin: 0 2px;
+}
+.boton_eliminar:hover{
+    background-color:  rgb(152, 180, 231);
+    }
+
+.boton_editar{
     background-color: rgb(36, 62, 177);
     border: 1px solid  rgb(36, 62, 177);
     color: azure;
     border-radius: 2px;
     float: right;
 }
-.boton_eliminar:hover{
+
+.boton_editar:hover{
     background-color:  rgb(152, 180, 231);
     }
+
 
